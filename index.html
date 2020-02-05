@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Films Show</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <header class="head">
+        <div class="logoclass">
+            <h1 class="logo">Films Show</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section one"></section>
+    <section class="content">
+        <h1>The Walking Dead Season 10</h1>
+        <p>While the cast and crew of AMC‘s The Walking Dead enjoy the response they’ve been getting for the tenth
+            season, life in the franchise’s universe has become a lot like the NFL: neither have off-seasons anymore.
+            With a strong ensemble cast (and a “Big Bad” fronted by Samantha Morton in an award-earning turn as
+            Whisperers leader Alpha) and richly layered writing, showrunner/executive producer Angela Kang did the
+            near-impossible: made the show feel fresh and dangerous again. With the series set to return to AMC on
+            Sunday, February 23, viewers have already gotten a look at what lies ahead – including Michonne’s (Danai
+            Gurira) return, a shirtless Negan (Jeffrey Dean Morgan), a Eugene (Josh McDermitt)/Rosita (Christian
+            Serratos) kiss, and Morton’s bloody Alpha</p>
+    </section>
+    <section class="section two"></section>
+    <section class="content">
+        <h1>John Wick 1</h1>
+        <p>Considering its origins as a pretty straightforward revenge story, the John Wick action movie franchise could
+            easily have continued churning out boilerplate sequels. Instead, it has swiftly created a fictional world
+            steeped in arcane lore which becomes more complex with each new chapter. The films take place within an
+            unseen demimonde, populated by assassins who adhere to all kinds of ancient traditions, and abide by a
+            certain code. In that way, the Keanu Reeves-fronted series isn't that far removed from the Star Wars movies,
+            which boast a similarly mysterious order of warriors in the form of Jedi Knights. So, in a move which
+            absolutely nobody asked for but yielded some pretty amazing results, special effects YouTube channel
+            ImmersionVFX put a lightsaber in Keanu Reeves' hand. Using footage from the most recent installment, John
+            Wick Chapter 3 - Parabellum, editors digitally inserted lightsabers into a series of sword fights from the
+            movie, turning what was already a hi-octane thrill ride into a neon-infused glimpse at just how well-suited
+            the preternaturally chill Keanu would be to playing a Jedi if the inclination ever arose.</p>
+    </section>
+    <section class="section three"></section>
+    <section class="content">
+        <h1>The Flash</h1>
+        <p>The latest development in Barry and Patty’s relationship on The Flash was poorly executed. But it’s more than
+            that. It’s no secret that The Flash is male-dominated. When we look at the main cast from season 1, we had
+            Barry Allen, Joe West, Iris West, Eddie Thawne, Cisco Ramon, Caitlin Snow and Harrison Wells. That’s more
+            than twice as many male characters (five) as female (two). When we add in Martin Stein and Ronnie Raymond,
+            the disparity becomes even greater. Even if we want to add Linda Park into that secondary category, we still
+            have a huge gap between the two.</p>
+    </section>
+    <section class="section four"></section>
+    <section class="content">
+        <h1>Me Before You</h1>
+        <p>Me Before You is a 2016 romantic drama film directed by Thea Sharrock in her directorial debut and adapted by
+            English author Jojo Moyes from her 2012 novel of the same name. The film stars Emilia Clarke, Sam Claflin,
+            Jenna Coleman, Charles Dance, Matthew Lewis, Janet McTeer, Vanessa Kirby, Joanna Lumley, and Steve Peacocke.
+            Set in the United Kingdom, the film is shot in various historic locations around the country, including
+            Pembroke Castle in Wales, and Chenies Manor House in Buckinghamshire, England. Released on June 3, 2016, in
+            North America, the film received mixed reviews and grossed $208 million worldwide</p>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).on("scroll", function() {
+            if($(document).scrollTop() > 100) {
+                $("header").addClass("small");
+            }
+            else {
+                $("header").removeClass("small");
+            }
+        })
+    </script>
+</body>
+
+</html>
